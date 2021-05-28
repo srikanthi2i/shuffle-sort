@@ -1,0 +1,28 @@
+//** Content to align vertical and horizontally centered
+
+@mixin content-centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@each $color-var in $color-vars {
+  $i: index($color-vars, $color-var);
+  .color-var--#{$i} {
+    background-color: $secondary;
+    position: relative;
+    &::before {
+      content: '';
+      display: block;
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 10px;
+      height: 100%;
+      background-color: $color-var;
+    }
+    @include media-desktop {
+      background-color: $color-var;
+    }
+  }
+}

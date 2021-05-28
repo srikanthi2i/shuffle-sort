@@ -1,0 +1,19 @@
+html, body, #app {
+	min-height: 100vh;
+	font-size: 62.5%;
+
+}
+
+body {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-family: $font-family-base;
+	font-weight: $font-weight-normal;
+	background-color: $bg-color;
+	color: $text-color;
+	line-height: $line-height-base;
+}
+
+*, *::after, *::before {
+	box-sizing: border-box;
+}

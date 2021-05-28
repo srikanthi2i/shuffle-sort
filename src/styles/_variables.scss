@@ -1,0 +1,29 @@
+//## Font variables
+$font-family-title: 'Lato', Helvetica, Arial, sans-serif;
+$font-family-content: 'Roboto', Helvetica, Arial, sans-serif;
+$font-family-base: $font-family-content;
+$line-height-base: 1.2;
+$font-weight-normal: 400;
+$font-weight-bold: 600;
+
+//## Color variables
+$primary: #73c3dc;
+$secondary: #efefef;
+$black: #000000;
+$white: #ffffff;
+
+$color-vars: (
+  #2c8ead,
+  #6f98a8,
+  #2f454e,
+  #bfbfbf
+);
+
+$bg-color: $white;
+$text-color: $black;
+
+//## Screen variables
+$media-desktop: 960px;
+
+//## Header and Footer height
+$header-footer-height: 75px;

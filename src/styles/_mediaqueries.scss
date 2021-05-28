@@ -1,0 +1,7 @@
+//## Mobile first approach media-queries
+
+@mixin media-desktop {
+	@media screen and (min-width: $media-desktop) {
+		@content;
+	}
+}

@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home.vue should render component and match snapshot 1`] = `
+<div class="home">
+  <aside>
+    <div class="action-container">
+      <div class="button-wrapper"><button>Shuffle</button></div>
+      <div class="button-wrapper"><button>Sort</button></div>
+    </div>
+  </aside>
+  <div class="panel">
+    <div class="card-container"></div>
+  </div>
+</div>
+`;

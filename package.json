@@ -14,6 +14,7 @@
   },
   "devDependencies": {
     "@types/jest": "^24.0.19",
+    "@types/sinon": "^10.0.1",
     "@typescript-eslint/eslint-plugin": "^4.18.0",
     "@typescript-eslint/parser": "^4.18.0",
     "@vue/cli-plugin-babel": "~4.5.0",
@@ -49,7 +50,18 @@
     "parserOptions": {
       "ecmaVersion": 2020
     },
-    "rules": {},
+    "rules": {
+      "@typescript-eslint/explicit-module-boundary-types": "off",
+      "prettier/prettier": [
+        1,
+        {
+          "singleQuote": true,
+          "trailingComma": "none",
+          "printWidth": 100
+        }
+      ],
+      "@typescript-eslint/no-implicit-this": "off"
+    },
     "overrides": [
       {
         "files": [
